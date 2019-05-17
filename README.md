@@ -2,10 +2,15 @@
 Adventure puzzle game made for DES506, a module on the MProf Games Development course at Abertay University.  May-August 2019.
 
 Team composition:
+
 Producer - Rob Meek
+
 Programmers - Blake Ratliff and Mark Meng
-Artists - Keith Nimmo, Alice Cwiklinski, Justin Dhaminaghi, Justin Dolan
+
+Artists - Keith Nimmo, Alice Cwiklinski, Josh Dhaminaghi, Justin Dolan
+
 Designers - Jegannath, Nathan Ball, Bryan Perry, Raibeart
+
 Audio - Corry Young
 
 Given brief:
