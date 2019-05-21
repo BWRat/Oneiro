@@ -1,2 +1,0 @@
-Placeholder file to keep folder from auto-deleting.
-Please delete this when the first file is added to this folder.
