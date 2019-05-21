@@ -1,4 +1,50 @@
 Base path: C:/Program Files/Unity2019.1.1/Editor/Data
 Cmd: initializeCompiler
-Cmd: compileSnippet
-  api=4 type=0 insize=1596 outsize=2002 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=111769 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=94521 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=32969 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=25750 outsize=13793 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=25750 outsize=16221 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9347 outsize=12813 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17415 outsize=8781 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11993 outsize=3901 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=21453 outsize=14761 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=21751 outsize=21741 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18634 outsize=641 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=642 outsize=749 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3022 outsize=2065 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3695 outsize=2689 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=857 outsize=573 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=35006 outsize=34605 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=35006 outsize=33021 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5089 outsize=729 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5089 outsize=929 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2596 outsize=2085 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9349 outsize=4921 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7712 outsize=6777 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5725 outsize=7149 ok=1
+
+Quitting shader compiler process

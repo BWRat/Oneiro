@@ -1,4 +1,76 @@
 Base path: C:/Program Files/Unity2019.1.1/Editor/Data
 Cmd: initializeCompiler
-Cmd: compileSnippet
-  api=4 type=1 insize=11846 outsize=5706 kw=SHADOWS_SPLIT_SPHERES pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(130): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(150): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(207): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(208): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(211): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(212): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(227): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(230): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(235): 'Load': implicit truncation of vector type
+  api=4 insize=18981 outsize=4477 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=21721 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=39097 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=54293 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=31457 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=64869 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=21733 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=40829 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=46261 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=36429 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=36397 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15475 outsize=66665 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=25750 outsize=15505 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5767 outsize=5913 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9347 outsize=7977 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17415 outsize=10469 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7423 outsize=1353 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2364 outsize=1029 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=21453 outsize=14621 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18634 outsize=5065 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7883 outsize=1781 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=35006 outsize=33021 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=35006 outsize=34605 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17691 outsize=7121 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5089 outsize=4769 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RaytracingAmbientOcclusionFilter.compute(36): 'Load': implicit truncation of vector type
+  api=4 insize=8541 outsize=4369 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15001 outsize=3013 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9349 outsize=4393 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3043 outsize=2761 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7712 outsize=4517 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3918 outsize=2657 ok=1
+
+Quitting shader compiler process
