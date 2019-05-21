@@ -1,70 +1,10 @@
 Base path: C:/Program Files/Unity2019.1.1/Editor/Data
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(130): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(150): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(207): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(208): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(211): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(212): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(227): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(230): 'Load': implicit truncation of vector type
-  error: 1 plat 4 at RaytracingReflectionFilter.compute(235): 'Load': implicit truncation of vector type
-  api=4 insize=18981 outsize=4477 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=32253 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=62141 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=47785 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=54613 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=31413 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=47249 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=76297 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=15475 outsize=43277 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=25750 outsize=15709 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=9347 outsize=12805 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=7409 outsize=4409 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=4061 outsize=4973 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=11912 outsize=957 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=7423 outsize=1049 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21453 outsize=14385 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=18634 outsize=5145 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=7883 outsize=5681 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=20668 outsize=95033 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=35006 outsize=32261 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=35006 outsize=31005 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=17691 outsize=7957 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=5089 outsize=1541 ok=1
-Cmd: compileComputeKernel
-  error: 1 plat 4 at RaytracingAmbientOcclusionFilter.compute(36): 'Load': implicit truncation of vector type
-  api=4 insize=8541 outsize=4369 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=7712 outsize=4613 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=3918 outsize=945 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=3651 outsize=1065 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=24739 outsize=1890 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-
-Quitting shader compiler process
+  api=4 type=0 insize=6796 outsize=810 kw=_NORMALMAP_TANGENT_SPACE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6796 outsize=142 kw=_SURFACE_TYPE_TRANSPARENT _NORMALMAP_TANGENT_SPACE _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6619 outsize=810 kw=_SURFACE_TYPE_TRANSPARENT _NORMALMAP_TANGENT_SPACE _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7946 outsize=71494 kw=DECALS_3RT SHADOW_LOW _SURFACE_TYPE_TRANSPARENT _NORMALMAP_TANGENT_SPACE _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
