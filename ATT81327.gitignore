@@ -299,6 +299,18 @@ __pycache__/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 
+
+
+
+# Blake's additions
+assetDatabase3
+*.info
+*.dwlt
+*.log
+
+
+
+
 # Visual Studio 2015 cache directory
 /.vs/
 

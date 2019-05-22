@@ -32,10 +32,12 @@ public class PlayerControl : MonoBehaviour
     
     void FixedUpdate()
     {
-        float moveAxis = Input.GetAxis("Horizontal");
-        //Physics.gravity = new Vector3(0, -gravity, 0);
+        float moveAxis = Input.GetAxis("Left_Joystick_Horizontal");
        
-        Move(moveAxis);
+        if (moveAxis != 0)
+            Move(moveAxis);
+
+
     }
 
     private void Move(float input)
@@ -68,7 +70,7 @@ public class PlayerControl : MonoBehaviour
             anim.SetBool("Walking", false);
 
         //Jump
-        if (Input.GetButtonDown("Jump") && jumpAllowed)
+        if (Input.GetButtonDown("A-Button") && jumpAllowed)
         {
             print("Trying to jump.");
             jumpAllowed = false;
@@ -76,10 +78,16 @@ public class PlayerControl : MonoBehaviour
         }
         
     }
+
     private void OnCollisionEnter(Collision collision)
     {
         //Reset jump
         jumpAllowed = true;
         print("Jump reset.");
+    }
+
+    void PushPull()
+    {
+
     }
 }
