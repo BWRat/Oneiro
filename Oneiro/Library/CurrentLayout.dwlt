@@ -95,7 +95,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 272}
   m_MaxSize: {x: 22012, y: 10022}
   vertical: 0
-  controlID: 97
+  controlID: 114
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,8 +251,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f4f0ffff
-      m_LastClickedID: -3852
+      m_SelectedIDs: 20ecffff
+      m_LastClickedID: -5088
       m_ExpandedIDs: 44f2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -351,20 +351,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/Justin Test Scene Assrts/Particles
+    - Assets/Art/Justin Test Scene Assrts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art/Justin Test Scene Assrts/Particles
+  - Assets/Art/Justin Test Scene Assrts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: W:\Unity\Des506\Oneiro\Oneiro\Oneiro
+  m_LastProjectPath: D:\Onerio Repo\Oneiro\Oneiro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a63e0000
-    m_LastClickedID: 16038
-    m_ExpandedIDs: 00000000c23a0000f03b0000b641000000ca9a3b
+    m_SelectedIDs: b6410000
+    m_LastClickedID: 16822
+    m_ExpandedIDs: 00000000c23a0000f03b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.43738, y: 4.9857116, z: 19.958876}
+    m_Target: {x: 3.20229, y: -1.0296838, z: 22.416836}
     speed: 2
-    m_Value: {x: 9.43738, y: 4.9857116, z: 19.958876}
+    m_Value: {x: 3.20229, y: -1.0296838, z: 22.416836}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -595,13 +595,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.028108716, y: -0.07430463, z: -0.0020956239, w: -0.9968377}
+    m_Target: {x: -0.05504224, y: -0.16193087, z: 0.009046339, w: -0.985225}
     speed: 2
-    m_Value: {x: 0.028111815, y: -0.07280926, z: -0.0020534575, w: -0.9969475}
+    m_Value: {x: -0.04914196, y: -0.16050363, z: 0.008000884, w: -0.9857787}
   m_Size:
-    m_Target: 31.043285
+    m_Target: 30.860353
     speed: 2
-    m_Value: 29.706493
+    m_Value: 32.314507
   m_Ortho:
     m_Target: 0
     speed: 2
