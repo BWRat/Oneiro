@@ -23,6 +23,8 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody rb;
     private Animator anim;
 
+    private AnimationClip walkingClip;
+
     [Header("Held objects:")]
     public float grabDistance;
     private GameObject heldObject;
@@ -39,15 +41,25 @@ public class PlayerControl : MonoBehaviour
     {
         float moveAxis = Input.GetAxis("Left_Joystick_Horizontal");
 
+        if (moveAxis != 0)
+            print("Joystick input.");
+        else
+            print("No joystick input.");
+
+        if (Input.GetJoystickNames().Length == 0)
+            print("ERROR: No controller connected.");
+        else
+            print("Controller connected.");
+
         Move(moveAxis);
 
-        if (Input.GetAxis("Triggers") > 0 && heldObject == null)
+        if (Input.GetAxis("Right_Trigger") > 0 && heldObject == null)
         {
             //Check for push/pull objects in front of player
             print("Pulled right trigger.");
             PushPull();
         }
-        else if (heldObject != null && Input.GetAxis("Triggers") <= 0)
+        else if (heldObject != null && Input.GetAxis("Right_Trigger") <= 0)
         {
             //Release object
             heldObject.transform.parent = null;
@@ -57,22 +69,26 @@ public class PlayerControl : MonoBehaviour
 
     private void Move(float input)
     {
-        if (input > 0)
+        print(input);
+        if (input > .5f)
         {
             //Walk toward right of screen using root motion
             transform.rotation = Quaternion.Euler(forwardRotation);
             anim.SetBool("Walking", true);
+            anim.speed = moveRate * input;
         }
-        else if (input < 0)
+        else if (input < -.25f)
         {
             //Walk toward left of screen using root motion
             transform.rotation = Quaternion.Euler(backwardRotation);
             anim.SetBool("Walking", true);
+            anim.speed = Mathf.Abs(moveRate * input);
         }
         else if (anim.GetBool("Walking") == true)
         {
             //Stop walking
             anim.SetBool("Walking", false);
+            anim.speed = 1;
         }
 
         //Jump
