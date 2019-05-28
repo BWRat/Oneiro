@@ -23,8 +23,6 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody rb;
     private Animator anim;
 
-    private AnimationClip walkingClip;
-
     [Header("Held objects:")]
     public float grabDistance;
     private GameObject heldObject;
@@ -41,16 +39,6 @@ public class PlayerControl : MonoBehaviour
     {
         float moveAxis = Input.GetAxis("Left_Joystick_Horizontal");
 
-        if (moveAxis != 0)
-            print("Joystick input.");
-        else
-            print("No joystick input.");
-
-        if (Input.GetJoystickNames().Length == 0)
-            print("ERROR: No controller connected.");
-        else
-            print("Controller connected.");
-
         Move(moveAxis);
 
         if (Input.GetAxis("Right_Trigger") > 0 && heldObject == null)
@@ -64,6 +52,9 @@ public class PlayerControl : MonoBehaviour
             //Release object
             heldObject.transform.parent = null;
             heldObject = null;
+
+            if (anim.GetBool("Grabbing") == true)
+                anim.SetBool("Grabbing", false);
         }
     }
 
@@ -94,9 +85,10 @@ public class PlayerControl : MonoBehaviour
         //Jump
         if (Input.GetButtonDown("A-Button") && jumpAllowed)
         {
-            print("Trying to jump.");
+            print("Jumping");
+            anim.SetTrigger("Jump");
             jumpAllowed = false;
-            rb.velocity += jumpSpeed * Vector3.up;
+            //rb.velocity += jumpSpeed * Vector3.up;
         }
 
     }
@@ -111,20 +103,31 @@ public class PlayerControl : MonoBehaviour
     void PushPull()
     {
         //Check for objects in front of player
-        if (Physics.Raycast(transform.position + Vector3.up, transform.TransformDirection(Vector3.forward), out RaycastHit hit, grabDistance))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit, grabDistance))
         {
             Debug.DrawRay(transform.position + Vector3.up, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
 
             if (hit.transform.tag == "PushPull")
             {
+                if (heldObject == null)
+                {
+                    anim.SetTrigger("Grab");
+                    anim.SetBool("Grabbing", true);
+                }
+
                 //Grab the object if it is a push/pull object
                 heldObject = hit.transform.gameObject;
                 heldObject.transform.parent = transform;
             }
+            else if (anim.GetBool("Grabbing") == true)
+                anim.SetBool("Grabbing", false);
         }
         else
         {
             Debug.DrawRay(transform.position + Vector3.up, transform.TransformDirection(Vector3.forward) * grabDistance, Color.white);
+
+            if (anim.GetBool("Grabbing") == true)
+                anim.SetBool("Grabbing", false);
         }
     }
 }
