@@ -64,9 +64,12 @@
   <ItemGroup>
     <Compile Include="Assets\Art\Justin Test Scene Assets\Butterfly Test\Butterfly_Test.cs" />
     <Compile Include="Assets\Art\Justin Test Scene Assets\Butterfly Test\ButterflyTest.cs" />
-    <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\Lever.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\PushPullObject.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>M:/Master degree/Oneiro/Oneiro/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
