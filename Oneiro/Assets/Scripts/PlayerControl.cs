@@ -44,7 +44,6 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetAxis("Right_Trigger") > 0 && m_heldObject == null)
         {
             //Check for push/pull objects in front of player
-            print("Pulled right trigger.");
             PushPull();
         }
         else if (m_heldObject != null && Input.GetAxis("Right_Trigger") <= 0)
@@ -60,7 +59,6 @@ public class PlayerControl : MonoBehaviour
 
     private void Move(float input)
     {
-        print(input);
         if (input > .25f)
         {
             //Walk toward right of screen using root motion
@@ -85,7 +83,6 @@ public class PlayerControl : MonoBehaviour
         //Jump
         if (Input.GetButtonDown("A-Button") && jumpAllowed)
         {
-            print("Jumping");
             m_anim.SetTrigger("Jump");
             jumpAllowed = false;
             //rb.velocity += jumpSpeed * Vector3.up;
@@ -97,7 +94,6 @@ public class PlayerControl : MonoBehaviour
     {
         //Reset jump
         jumpAllowed = true;
-        print("Jump reset.");
     }
 
     void PushPull()

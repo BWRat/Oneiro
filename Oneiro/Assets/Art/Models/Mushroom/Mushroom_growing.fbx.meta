@@ -44,8 +44,8 @@ ModelImporter:
       name: Small_Idle
       takeName: Armature|ArmatureAction
       internalID: 4781951162920444690
-      firstFrame: 1
-      lastFrame: 1
+      firstFrame: 0
+      lastFrame: 0
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -73,8 +73,8 @@ ModelImporter:
       name: Growing
       takeName: Armature|ArmatureAction
       internalID: -4568688471195545280
-      firstFrame: 2
-      lastFrame: 50
+      firstFrame: 1
+      lastFrame: 49
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -102,7 +102,7 @@ ModelImporter:
       name: Large_Idle
       takeName: Armature|ArmatureAction
       internalID: -7375455270701725593
-      firstFrame: 50
+      firstFrame: 49
       lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
