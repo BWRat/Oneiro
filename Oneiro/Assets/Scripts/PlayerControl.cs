@@ -83,9 +83,9 @@ public class PlayerControl : MonoBehaviour
         //Jump
         if (Input.GetButtonDown("A-Button") && jumpAllowed)
         {
+            m_rb.velocity += jumpSpeed * Vector3.up;
             m_anim.SetTrigger("Jump");
             jumpAllowed = false;
-            //rb.velocity += jumpSpeed * Vector3.up;
         }
 
     }

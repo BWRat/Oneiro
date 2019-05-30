@@ -28,6 +28,12 @@ public class GrowShrinkObject : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Input.GetButtonDown("X-Button"))
+            Toggle();
+    }
+
     public void Toggle()
     {
         print("Toggling.");
@@ -44,9 +50,9 @@ public class GrowShrinkObject : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.GetComponent<PlayerControl>())
-            Toggle();
-    }
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.collider.GetComponent<PlayerControl>())
+    //        Toggle();
+    //}
 }
