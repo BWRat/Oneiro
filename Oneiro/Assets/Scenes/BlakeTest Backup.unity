@@ -2671,7 +2671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2b036888c983340b91c7e3c7e18235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1611404847}
+  target: {fileID: 0}
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5066,12 +5066,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!4 &1611404847 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ec6f1b586278118499eca08132245061,
-    type: 3}
-  m_PrefabInstance: {fileID: 1611404841}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1613476839
 GameObject:
   m_ObjectHideFlags: 0
@@ -6275,6 +6269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushroom_growing
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 1d4e5a93420b99d47bfda4bdf8480cc5,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9b9b4676989dcad45b8245b641cd871a, type: 2}
     - target: {fileID: -4216859302048453862, guid: 1d4e5a93420b99d47bfda4bdf8480cc5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6360,11 +6359,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 1d4e5a93420b99d47bfda4bdf8480cc5,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9b9b4676989dcad45b8245b641cd871a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d4e5a93420b99d47bfda4bdf8480cc5, type: 3}
 --- !u!1001 &2646546682436069109
