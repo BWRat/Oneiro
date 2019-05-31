@@ -69,7 +69,9 @@ public class PlayerControl : MonoBehaviour
             //transform.rotation = Quaternion.Euler(m_forwardRotation);
             transform.forward = input;
             m_anim.SetBool("Walking", true);
-            
+
+            transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.Clamp(transform.position.z, -3, 3));
+
             //m_anim.speed = moveRate * input;
         }
         //else if (anyInput < -.25f)
