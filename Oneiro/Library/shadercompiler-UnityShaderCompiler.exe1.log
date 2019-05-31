@@ -1,2 +1,73 @@
 Base path: C:/Program Files/Unity2019.1.1/Editor/Data
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=2627 outsize=897 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(130): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(150): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(207): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(208): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(211): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(212): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(227): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(230): 'Load': implicit truncation of vector type
+  error: 1 plat 4 at RaytracingReflectionFilter.compute(235): 'Load': implicit truncation of vector type
+  api=4 insize=19413 outsize=4913 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=13369 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=45313 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=44437 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=47785 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=54613 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=13381 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=34001 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=39461 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=36721 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=43529 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=36397 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15676 outsize=66665 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=26390 outsize=15505 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9590 outsize=9273 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17814 outsize=10549 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5067 outsize=2493 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7611 outsize=1037 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=12324 outsize=613 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=21986 outsize=14113 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=19097 outsize=5145 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=879 outsize=573 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=35703 outsize=32261 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=35703 outsize=33021 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18075 outsize=7121 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5214 outsize=4769 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3133 outsize=2761 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7915 outsize=7909 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4037 outsize=709 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7399 outsize=1670 kw=DECALS_3RT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
