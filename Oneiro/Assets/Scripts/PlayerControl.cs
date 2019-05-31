@@ -37,9 +37,11 @@ public class PlayerControl : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveAxis = Input.GetAxis("Left_Joystick_Horizontal");
+        float xMoveAxis = Input.GetAxis("Left_Joystick_Horizontal");
+        float zMoveAxis = Input.GetAxis("Left_Joystick_Vertical");
+        Vector3 movement = new Vector3(xMoveAxis, 0, zMoveAxis);
 
-        Move(moveAxis);
+        Move(movement);
 
         if (Input.GetAxis("Right_Trigger") > 0 && m_heldObject == null)
         {
@@ -57,22 +59,26 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    private void Move(float input)
+    private void Move(Vector3 input)
     {
-        if (input > .25f)
+        float anyInput = Mathf.Abs(input.x) + Mathf.Abs(input.z);
+
+        if (anyInput > .25f)
         {
             //Walk toward right of screen using root motion
-            transform.rotation = Quaternion.Euler(m_forwardRotation);
+            //transform.rotation = Quaternion.Euler(m_forwardRotation);
+            transform.forward = input;
             m_anim.SetBool("Walking", true);
-            m_anim.speed = moveRate * input;
+            
+            //m_anim.speed = moveRate * input;
         }
-        else if (input < -.25f)
-        {
-            //Walk toward left of screen using root motion
-            transform.rotation = Quaternion.Euler(m_backwardRotation);
-            m_anim.SetBool("Walking", true);
-            m_anim.speed = Mathf.Abs(moveRate * input);
-        }
+        //else if (anyInput < -.25f)
+        //{
+        //    //Walk toward left of screen using root motion
+        //    transform.rotation = Quaternion.Euler(m_backwardRotation);
+        //    m_anim.SetBool("Walking", true);
+        //    //m_anim.speed = Mathf.Abs(moveRate * input);
+        //}
         else if (m_anim.GetBool("Walking") == true)
         {
             //Stop walking

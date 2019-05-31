@@ -1790,7 +1790,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -2.5448475, z: 8.66e-43, w: -1.7530107}
+  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 1.54e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -2636,12 +2636,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0.9940564, z: -0.10886683, w: 0}
-  m_LocalPosition: {x: -12, y: 3.75, z: 6.75}
+  m_LocalRotation: {x: -0, y: 0.9940564, z: -0.10886683, w: 0}
+  m_LocalPosition: {x: -12, y: 3.75, z: 6.750003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 12.5, y: 180, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -5124,7 +5124,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: ec6f1b586278118499eca08132245061,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: ec6f1b586278118499eca08132245061,
         type: 3}
@@ -5203,7 +5203,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611404842}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
