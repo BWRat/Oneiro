@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4011678951	Mushroom_grow			\Default Work Unit\Mushroom_grow	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	648147293	Mushroom grow	D:\Oneiro\Oneiro\Oneiro_WwiseProject\.cache\Windows\SFX\Mushroom grow_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Special abilities\Manipulating the mushrooms\Mushroom_up\Mushroom grow		635704
+

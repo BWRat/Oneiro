@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D9902E16-232E-4B0D-861C-FAA86560AE71}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{D9902E16-232E-4B0D-861C-FAA86560AE71}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D9902E16-232E-4B0D-861C-FAA86560AE71}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Mushroom_grow" ID="{9E3045F5-F1A3-4F28-A54D-2098F0F09059}">
+					<ChildrenList>
+						<Action Name="" ID="{4CD36322-5B3F-48A7-B4C3-528A8C0FB78B}" ShortID="433509235">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mushroom grow" ID="{0EDB8011-9695-47F8-B574-E03A6FA8F010}" WorkUnitID="{2D097DB5-7FAE-4F66-9815-369136E208D7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

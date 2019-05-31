@@ -20,6 +20,15 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank_1</ObjectPath>
 			<ShortName>Soundbank_1</ShortName>
 			<Path>Soundbank_1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4011678951" Name="Mushroom_grow" ObjectPath="\Events\Default Work Unit\Mushroom_grow" DurationType="OneShot" DurationMin="3.603401" DurationMax="3.603401"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="648147293" Language="SFX">
+					<ShortName>Mushroom grow.wav</ShortName>
+					<Path>SFX\Mushroom grow_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

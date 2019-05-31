@@ -4,7 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{1856DB7D-2530-4E32-8AAF-6887C418A15C}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Soundbank_1" ID="{8CCBFDC5-96F0-4C87-B1E9-0C13A6284861}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Mushroom_grow" ID="{9E3045F5-F1A3-4F28-A54D-2098F0F09059}" WorkUnitID="{D9902E16-232E-4B0D-861C-FAA86560AE71}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
