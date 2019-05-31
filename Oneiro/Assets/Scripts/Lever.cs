@@ -47,7 +47,7 @@ public class Lever : MonoBehaviour
 
     private void Update()
     {
-        if (inInteractiveRange && Input.GetKey(KeyCode.E))
+        if (inInteractiveRange && Input.GetButtonDown("X-Button"))
             ToggleActivateStatus();
 
         if (!inInteractiveRange
